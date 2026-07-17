@@ -16,10 +16,19 @@ header{
 p{
     line-height: 1.6;
 }
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0%;
+}
+nav ul li{
+    margin: 0 15px;
+}
 nav ul li a{
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 nav ul li a:hover{
   color: blue;
